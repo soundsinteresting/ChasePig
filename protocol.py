@@ -21,6 +21,6 @@ A23456789JQK表示不同的牌
 每次出一张新牌都会把这一圈已经出过的牌再按顺序重复一遍
 "start"是这一圈开始的那一家的位置
 * {"command":"trick_end","cards":["S2","SQ","SJ","SA"],"start":"W","winner":"N"}
-* {"command":"gameend","scores":[0,50,200,0]}
+* {"command":"game_end","scores":[0,50,200,0]}
 "scores"也按SENW顺序排好
 * {"command":"error","detail":"blabla"}
